@@ -1,5 +1,6 @@
 # Echokraut-Tools
-* Tools to create a dataset for your own trained voice model with your own FFXIV GameData. FOR PERSONAL USE ONLY.
+* Tools to create a dataset for your own trained voice model with your own FFXIV GameData.
+* FOR PERSONAL USE ONLY.
 * Using this tool I expect you to know how to use [alltalk_tts](https://github.com/erew123/alltalk_tts/tree/alltalkbeta). If you need any assistance feel free to [![Discord](https://img.shields.io/badge/Join-Discord-blue)](https://discord.gg/5gesjDfDBr)
 * This tool is at the moment only tested in german but should still work in the other official client languages(english, french, japanese)
 
