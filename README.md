@@ -16,4 +16,4 @@
 * The progress bar will show "done" when it's done. You can now close "Echokraut Tools"
 * Copy "metadata_train.csv", "metadata_eval.csv" and the "wavs" folder into a new folder (FFXIV for example) inside the "finetune" folder of [alltalk_tts](https://github.com/erew123/alltalk_tts/tree/alltalkbeta).
 * Start the finetune process according to the alltalk manual.
-* Once the finetune process is finished: You can create your voice files by taking one of the many .wav files out of the wavs/npcname folders for each npc and test them in [alltalk_tts](https://github.com/erew123/alltalk_tts/tree/alltalkbeta) until you find one you are happy with. And name them according to the Echokraut-Plugin instructions. Check: [Echokraut](https://github.com/RenNagasaki/Echokraut)
+* Once the finetune process is finished: You can create your voice files by taking one of the many .wav files out of the wavs/npcname folders for each npc and test them in [alltalk_tts](https://github.com/erew123/alltalk_tts/tree/alltalkbeta) until you find one you are happy with. And name them according to the [Echokraut](https://github.com/RenNagasaki/Echokraut)-Plugin instructions. 
