@@ -1,3 +1,6 @@
 [submodule "SaintCoinach"]
 	path = SaintCoinach
 	url = https://github.com/xivapi/SaintCoinach
+[submodule "VGSC"]
+	path = VGSC
+	url = https://github.com/puggsoy/VGSC
