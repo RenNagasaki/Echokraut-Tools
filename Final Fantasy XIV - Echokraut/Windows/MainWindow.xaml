@@ -1,0 +1,61 @@
+﻿<Window x:Class="FF14_Echokraut.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FF14_Echokraut"
+        x:Name="window_Main"
+        mc:Ignorable="d"
+        Title="Final Fantasy XIV - Echokraut" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Status">
+                <Grid Background="#FFE5E5E5">
+                    <ScrollViewer Margin="10,35,10,10" x:Name="scroll_Log">
+                        <TextBlock x:Name="tBlock_log" TextWrapping="Wrap" Text="" Background="White" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" />
+
+
+                    </ScrollViewer>
+                    <Button x:Name="btn_connectFF14" Content="FF14 verbinden" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="btn_connectFF14_Click"/>
+                    <Image x:Name="img_ff14Connected" HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" VerticalAlignment="Top" Width="20" Source="/redbulb.png"/>
+                    <Image x:Name="img_alltalkLoaded" HorizontalAlignment="Left" Height="20" Margin="132,10,0,0" VerticalAlignment="Top" Width="20" Source="/redbulb.png"/>
+                    <CheckBox x:Name="check_TopMost" Content="Always on Top" HorizontalAlignment="Left" Margin="218,12,0,0" VerticalAlignment="Top" Checked="check_TopMost_Checked"/>
+                    <Button x:Name="btn_ConnectBackend" Content="Backend verbinden" HorizontalAlignment="Left" Margin="108,10,0,0" VerticalAlignment="Top" Click="btn_connectBackend_Click"/>
+                    <CheckBox x:Name="check_QueueText" Content="Queue Text" HorizontalAlignment="Left" Margin="319,12,0,0" VerticalAlignment="Top" Checked="check_QueueText_Checked"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="NPC Mapping">
+                <ScrollViewer HorizontalScrollBarVisibility="Hidden">
+                    <StackPanel x:Name="stack_NpcData">
+                        <Button x:Name="btn_AddNpcData" Content="Add new NPC" Height="40" Margin="5,5,5,5" VerticalAlignment="Top" Click="btn_AddNpcData_Click"/>
+                    </StackPanel>  
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Settings">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="FF14 Websocket URL:" HorizontalAlignment="Left" Margin="5,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_Ff14Url" Margin="222,14,5,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+                    <Label Content="XIVApi URL:" HorizontalAlignment="Left" Margin="5,36,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_XivApiUrl" Margin="222,40,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Label Content="XIVApi URL Erweiterung:" HorizontalAlignment="Left" Margin="5,62,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_XivApiPath" Margin="222,66,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Label Content="AllTalk Webservice URL:" HorizontalAlignment="Left" Margin="5,85,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_AlltalkUrl" Margin="222,89,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Label Content="AllTalk Streaming URL Erweiterung:" HorizontalAlignment="Left" Margin="5,111,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_AlltalkStreamPath" Margin="222,115,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Label Content="AllTalk ReadyCheck URL Erweiterung:" HorizontalAlignment="Left" Margin="5,137,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_AlltalkReadyPath" Margin="222,141,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Label Content="AllTalk GetVoices URL Erweiterung:" HorizontalAlignment="Left" Margin="5,161,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_AlltalkVoicesPath" Margin="222,165,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Label Content="AllTalk SetModel URL Erweiterung:" HorizontalAlignment="Left" Margin="5,187,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_AlltalkModelPath" Margin="222,191,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Label Content="AllTalk Start URL Erweiterung:" HorizontalAlignment="Left" Margin="5,213,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_AlltalkStartPath" Margin="222,217,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Label Content="AllTalk Stop URL Erweiterung:" HorizontalAlignment="Left" Margin="5,239,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tBox_AlltalkStopPath" Margin="222,243,5,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+                    <Button x:Name="btn_TestMessage" Content="Testmessage" HorizontalAlignment="Left" Margin="10,270,0,0" VerticalAlignment="Top" Click="btn_TestMessage_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

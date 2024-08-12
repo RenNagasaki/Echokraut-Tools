@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Final Fantasy XIV - Echokraut", "Final Fantasy XIV - Echokraut\Final Fantasy XIV - Echokraut.csproj", "{6134F886-1C9B-4379-85B5-AC1D683DEE74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FF14_CreateDataset", "FF14_CreateDataset\FF14_CreateDataset.csproj", "{34C6DBB4-EC36-499C-847D-EA911433552C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NormalizeVoiceSamples", "NormalizeVoiceSamples\NormalizeVoiceSamples.csproj", "{A67C390B-6DDC-4E0D-8DC2-A2C367EF23EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrepareAlltalkTrainingData", "PrepareAlltalkTrainingData\PrepareAlltalkTrainingData.csproj", "{92CE1487-D2B6-4EE2-8272-5A92E6772F79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaintCoinach", "SaintCoinach\SaintCoinach\SaintCoinach.csproj", "{8A7D65EB-3DE3-4631-B286-CC73A3126002}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotSquish", "SaintCoinach\DotSquish\DotSquish.csproj", "{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaintCoinach.Cmd", "SaintCoinach\SaintCoinach.Cmd\SaintCoinach.Cmd.csproj", "{957699E4-8310-4D1E-BA83-13B7A4932807}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6134F886-1C9B-4379-85B5-AC1D683DEE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6134F886-1C9B-4379-85B5-AC1D683DEE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6134F886-1C9B-4379-85B5-AC1D683DEE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6134F886-1C9B-4379-85B5-AC1D683DEE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C6DBB4-EC36-499C-847D-EA911433552C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C6DBB4-EC36-499C-847D-EA911433552C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C6DBB4-EC36-499C-847D-EA911433552C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C6DBB4-EC36-499C-847D-EA911433552C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67C390B-6DDC-4E0D-8DC2-A2C367EF23EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67C390B-6DDC-4E0D-8DC2-A2C367EF23EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67C390B-6DDC-4E0D-8DC2-A2C367EF23EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67C390B-6DDC-4E0D-8DC2-A2C367EF23EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CE1487-D2B6-4EE2-8272-5A92E6772F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CE1487-D2B6-4EE2-8272-5A92E6772F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CE1487-D2B6-4EE2-8272-5A92E6772F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CE1487-D2B6-4EE2-8272-5A92E6772F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7D65EB-3DE3-4631-B286-CC73A3126002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7D65EB-3DE3-4631-B286-CC73A3126002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7D65EB-3DE3-4631-B286-CC73A3126002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7D65EB-3DE3-4631-B286-CC73A3126002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957699E4-8310-4D1E-BA83-13B7A4932807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957699E4-8310-4D1E-BA83-13B7A4932807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957699E4-8310-4D1E-BA83-13B7A4932807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957699E4-8310-4D1E-BA83-13B7A4932807}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40002795-E426-4230-A82B-7F1707E851E1}
+	EndGlobalSection
+EndGlobal

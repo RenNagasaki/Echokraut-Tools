@@ -1,0 +1,15 @@
+{
+  "FF14UrlBase": "ws://localhost:7852/Messages",
+  "XIVAPIUrlBase": "https://xivapi.com",
+  "XIVAPIPath": "/ENpcResident/",
+  "UrlBase": "http://185.78.61.62:7851",
+  "GeneratePath": "/api/tts-generate-streaming",
+  "ReadyPath": "/api/ready",
+  "VoicePath": "/api/voices",
+  "StopPath": "/api/stop-generation",
+  "StartPath": "/api/start-generation",
+  "SetModelFT": "/api/reload?tts_method=XTTSv2%20FT",
+  "Language": "German",
+  "TopMost": false,
+  "QueueText": false
+}
